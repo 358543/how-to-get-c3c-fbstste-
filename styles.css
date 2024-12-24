@@ -1,1 +1,60 @@
+/* General Reset */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
 
+/* Body Style */
+body {
+  background-color: #121212;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #ff0080;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Steps Section */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.step {
+  border: 1px solid #333;
+  background-color: #222;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.step img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ff0080;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  }
